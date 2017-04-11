@@ -1,0 +1,14 @@
+<div class="supre-dropdown-menu-button"
+  (mouseenter)="handleMouseEnter()"
+  (mouseleave)="handleMouseLeave()"
+  (click)="handleClick($event)"
+  (change)="handleChange($event)"
+
+  >
+  <ng-content select="[supre-dropdown-menu-button]"></ng-content>
+  <div class="menu-activation" #menu *ngIf="isOpen"  [ngStyle]="{'visibility': isPlaced ? 'visible' : 'hidden'}">
+    <div class="menu">
+        <ng-content></ng-content>
+    </div>
+  </div>
+</div>

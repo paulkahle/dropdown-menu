@@ -49,9 +49,10 @@ Supported values include:
 #### Example
 ```
 <supre-dropdown-menu trigger="hover" [align]="['bottom-right','top-right']">
-  <button supre-dropdown-menu-button class="-dialog">pointed=true</button>
+  <button supre-dropdown-menu-button>Trigger</button>
   <div class="item"><span class="u-supre-icon u-supre-icon--snapshot"></span>Option One</div>
   <div class="item"><span class="u-supre-icon u-supre-icon--edit"></span>Option Two</div>
   <div class="item"><span class="u-supre-icon u-supre-icon--export"></span>Option Three</div>
+  <div style="padding:5px" supre-dropdown-menu-close="change"><select><option>Change</option><option>Two</option><option>Three</option></select></div>
 </supre-dropdown-menu>
 ```

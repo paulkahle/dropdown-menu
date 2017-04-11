@@ -47,9 +47,11 @@ Supported values include:
 - none: do not close the dropdown on child interaction
 
 #### Example
-```<supre-dropdown-menu trigger="hover" [align]="['bottom-right','top-right']">
+```
+<supre-dropdown-menu trigger="hover" [align]="['bottom-right','top-right']">
   <button supre-dropdown-menu-button class="-dialog">pointed=true</button>
   <div class="item"><span class="u-supre-icon u-supre-icon--snapshot"></span>Option One</div>
   <div class="item"><span class="u-supre-icon u-supre-icon--edit"></span>Option Two</div>
   <div class="item"><span class="u-supre-icon u-supre-icon--export"></span>Option Three</div>
-</supre-dropdown-menu>```
+</supre-dropdown-menu>
+```
